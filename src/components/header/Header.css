@@ -30,12 +30,12 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after {
+/* .header__socials::after {
     content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-}
+} */
 
 /* Img */
 .me {
@@ -50,12 +50,18 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+h6 {
+    font-size: 11.5rem;
+    position: relative;
+    top: -2.25rem;
+}
+
 /* Scroll down*/
 
 .scroll-down {
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 5.3rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
