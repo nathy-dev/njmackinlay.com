@@ -1,0 +1,16 @@
+.footer {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: center;
+    background-color: var(--color-primary);
+    color: black;
+    margin-top: 5rem;
+}
+
+.footer a {
+    color: black;
+}
