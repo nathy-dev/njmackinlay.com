@@ -17,7 +17,10 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
-  };
+      
+      e.target.reset();
+      alert('Message Sent Successfully')
+   };
 
   return (
     <section id="contact">
@@ -36,7 +39,7 @@ const Contact = () => {
             <h5>(480) 378 7543</h5>
           </article>
         </div>
-        <form onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name ='name' placeholder='Your Full Name' required/>
           <input type="email" name ='email' placeholder='Your Email' required/>
           <textarea name="message" rows="7" placeholder="What do you want to tell me?" required></textarea>
