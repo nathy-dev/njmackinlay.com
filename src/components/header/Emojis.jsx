@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useCallback } from "react";
 
-const emojis = ['🍌', '🏋️‍♂️', '💻', '🦧', '👨‍🦰', '🌴', '🌊', '🌎']
+const emojis = ['🍌', '🏋️‍♂️', '💻', '🦧', '👨‍🦰', '🌴', '🌊', '🌎', '🥝', '🏕', '🏔', '🎨', '📚']
 
 const EmojiCycle = () => {
     const [newEmoji, setnewEmoji] = useState("👋");

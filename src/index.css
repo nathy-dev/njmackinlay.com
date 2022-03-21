@@ -11,14 +11,14 @@
 }
 
 :root {
-    /* --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primarary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: #fff;
+    /* --color-bg: #8cb87a;
+    --color-bg-variant: #195f52;
+    --color-primary: #69ff33;
+    --color-primary-variant: rgba(105, 255, 51, 0.4);
+    --color-white: #faf8ef;
     --color-light: rgba(255, 255, 255, 0.6); */
     --color-bg: #072900;
-    --color-bg-variant: #c07621;
+    --color-bg-variant: #8c5518;
     --color-primary: #ff9e1f;
     --color-primary-variant: rgba(255, 147, 31, 0.4);
     --color-white: #f0ead1;
@@ -45,6 +45,7 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/background.png);
+    /* background-image: url(../src/assets/arches.png); */
 }
 
 /* ======== STYLING ========= */
@@ -64,6 +65,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -123,9 +125,6 @@ img {
         width: var(--container-width-md);
     }
 
-    section {
-        margin-top: 6rem;
-    }
 }
 
 /* ======== PHONES ======== */

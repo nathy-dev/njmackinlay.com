@@ -1,0 +1,49 @@
+.container.experience__container {
+    width: 60%;
+    height: 21rem;
+    padding-bottom: 2rem;
+}
+
+.exp__icon {
+    font-size: 2.5rem;
+    background-color: var(--color-primary-variant);
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+.experience {
+    background-color: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.exp__summary {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto;
+    text-align: left;
+}
+
+.experience__swiper {
+    padding-bottom: 1rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--color-primary) !important;
+}
+
+@media screen and (max-width: 600px) {
+    .container.experience__container {
+        width: var(--container-width-sm);
+        height: 25rem;
+    }
+
+    .exp__summary {
+        width: var(--container-width-sm);
+    }
+
+}
