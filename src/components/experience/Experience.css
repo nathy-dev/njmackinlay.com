@@ -4,6 +4,10 @@
     padding-bottom: 2rem;
 }
 
+#experience {
+    height: min-content;
+}
+
 .exp__icon {
     font-size: 2.5rem;
     background-color: var(--color-primary-variant);

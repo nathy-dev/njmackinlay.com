@@ -1,0 +1,49 @@
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_option {
+    padding: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    background-color: var(--color-white);
+    color: var(--color-bg-variant);
+}
+
+@media screen and (max-width: 800px) {
+    .container.contact__container {
+        width: 80%;
+        display: block;
+    }
+    
+    .contact_options {
+        display: block;
+        gap: 2rem;
+    }
+
+    .contact_option {
+        width: 50%;
+    }
+
+}
