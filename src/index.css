@@ -57,7 +57,7 @@ body {
     /* background-image: url(../src/assets/cartographer.png); */
 }
 
-textarea {
+textarea, input {
     font-family: 'Poppins', sans-serif;
 }
 
