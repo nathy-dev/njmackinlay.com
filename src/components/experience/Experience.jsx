@@ -2,24 +2,33 @@ import React from 'react'
 import './Experience.css'
 import { MdSchool, MdWork } from 'react-icons/md'
 
-import { Pagination, Navigation, Scrollbar, A11y } from 'swiper'
+import { Pagination, Navigation, EffectCube } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css';
+import "swiper/css/effect-cube";
 import 'swiper/css/pagination';
+import "swiper/css/navigation";
 
 const Experience = () => {
   return (
     <section id="experience">
       <h5>Experience</h5>
-      <h2>Some Things I've Done</h2>
-
+      <h2>Swipe to See More</h2>
         <Swiper
         className='container experience__container'
-        modules={[ Pagination, Navigation, Scrollbar, A11y ]}
+        modules={[ Pagination, EffectCube, Navigation ]}
         spaceBetween={40}
         slidesPerView={1}
+        effect={"cube"}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
         pagination={{ clickable: true }}
+        navigation={true}
         >
         <SwiperSlide className='experience'>
           <MdWork className='exp__icon'/>
