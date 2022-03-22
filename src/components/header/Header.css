@@ -71,7 +71,7 @@ h6 {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: max(110vh, 850px)
     }
 
     .header__socials, .scroll-down {
