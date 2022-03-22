@@ -119,7 +119,8 @@
 
 @media screen and (max-width: 600px) {
     #about {
-        height: 100vh;
+        padding-bottom: 2rem;
+        height: max-content;
     }
 
     .about__me {
