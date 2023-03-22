@@ -1,12 +1,13 @@
-# Hi, Thanks for Checking Out My Personal Site! 🍌🍌🍌
+# Hi, Thanks for Checking Out My Very Outdated Personal Site! 🍌🍌🍌
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+My new personal site is [nathy.dev](https://nathy.dev) and very wisely uses vite and not CRA.
 
 ## If you like what you see, feel free to clone the repository and use it as a template
 
 In the project directory, you can run:
 `npm i` followed by `npm start` and boom you are up and running!
-
 
 ## Make it your own
 
